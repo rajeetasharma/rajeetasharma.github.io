@@ -1,0 +1,96 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  background-color: lightsteelblue;
+}
+
+.welcome {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-style: oblique;
+  color: #1d3557;
+  text-align: center;
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.home-img {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.create-user {
+  text-align: center;
+  font-size: 25px;
+  margin-top: -5%;
+}
+.login-form {
+  margin: auto;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  width: 600px;
+  height: 450px;
+  transform: translate(-50%, -50%);
+  background: #1a11117a;
+  border-radius: 50px;
+  color: white;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.form-fields {
+  padding: 75px;
+}
+
+.btn-primary {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.transfer-btn {
+  transition: 0.2s;
+  text-align: center;
+  padding: 5px 10px;
+}
+.transfer-btn:hover {
+  background-color: #457b9d;
+  color: #ffffff;
+  padding: 5px;
+}
+.selected-btn {
+  transition: 0.2s;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+.selected-btn:hover {
+  background-color: #1d3557;
+  color: #ffffff;
+  padding: 5px 10px;
+}
+
+.footer {
+  background-color: #1d3557;
+  color: #ffff;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .row .welcome {
+    display: none;
+  }
+  .login-form {
+    width: 350px;
+    height: 450px;
+  }
+}

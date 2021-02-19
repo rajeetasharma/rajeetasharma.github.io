@@ -1,0 +1,29 @@
+.navbar {
+  height: 80px;
+  background-color: #1d3557;
+  font-size: 18px;
+  padding: 15px;
+  margin-bottom: 0px;
+}
+.navbar-header .navbar-brand {
+  font-size: 30px;
+  color: #ffff;
+  font-style: italic;
+}
+.navbar-nav li a {
+  color: white;
+}
+
+#myNavbar {
+  background-color: #1d3557;
+  text-align: center;
+}
+
+#myNavbar li a {
+  color: white;
+  margin-left: 15px;
+}
+#myNavbar li a:hover {
+  color: #1d3557;
+  background-color: white;
+}
